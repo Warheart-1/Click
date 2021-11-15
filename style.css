@@ -1,0 +1,80 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(54,54 ,54 ,0.8);
+    color: white;
+}
+
+.maintitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 42px;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+#clicker, #reset-clicker, #soustract{
+        font-size: 24px;
+        padding: 30px 22px 22px 30px;
+        text-justify: inter-word;
+        background-color: rgba(149, 91,189 , 0.8);
+        border-color: rgba(149, 91,189 , 0.8);
+        border-radius: 10px;
+}
+          
+#clicker:hover, #reset-clicker:hover, #soustract:hover{
+        background-color: rgba(149, 91,189 , 0.5);
+        border-color: rgba(149, 91,189 , 0.5);
+}
+
+#clicker{
+    margin-right: 20px;
+}
+
+#soustract{
+  margin-left: 20px;
+}
+
+#soustract12{
+  font-size: 24px;
+  padding: 30px 22px 22px 30px;
+  text-justify: inter-word;
+  background-color: rgba(149, 91,189 , 0.8);
+  border-color: rgba(149, 91,189 , 0.8);
+  border-radius: 10px;
+  animation-name: oui;
+  animation-duration: 3s;
+  margin-left: 20px;
+}
+
+#soustract12:hover{
+  animation-name: oui;
+  animation-duration: 3s;
+  background-color: rgba(149, 91,189 , 0.5);
+  border-color: rgba(149, 91,189 , 0.5);
+}
+
+@keyframes oui{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
